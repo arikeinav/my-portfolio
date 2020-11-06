@@ -1,0 +1,42 @@
+.about{
+  margin-top: 100px;
+}
+.general {
+  width: 600px;
+
+  h2 {
+    font-family: "Courier";
+    font-size: 20px;
+    color: white;
+  }
+}
+
+.text{
+  border-radius: 5px;
+  background-color: #fff;
+  width: 250px;
+  
+}
+.input{
+  background-color: #fff;
+  border-radius: 5px;
+  
+}
+.contact-form{
+display: flex;
+flex-direction: column;
+height: 400px;
+background-color: rgb(114, 114, 114);
+width: 300px;
+justify-content: space-around;
+align-items: center;
+
+}
+
+@media (max-width:800px){
+
+
+  .about{
+    flex-direction: column;
+  }
+}

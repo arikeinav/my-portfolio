@@ -1,0 +1,329 @@
+.home {
+    height: 100vh;
+    
+  }
+  .home-about{
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    
+  }
+  .my-object {
+    margin-top: 140px;
+    background-color: #2c2929;
+    max-width: 600px;
+    .bracets{
+      font-size:32px;
+      position:relative
+    }
+  }
+  .my-object p {
+    border-right: 0.15em solid orange;
+    font-family: "Courier";
+    font-style: italic;
+    font-size: 25px;
+    white-space: nowrap;
+    overflow: hidden;
+    color: white;
+    margin-left: 20px;
+  }
+  .my-object p:nth-child(1) {
+    width: 16.5em;
+    -webkit-animation: type 5s steps(28, end);
+    animation: type 5s steps(28, end);
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  
+  #section02{
+    height: 40px;
+  }
+#section02  span {
+  position: absolute;
+  top: 660px;
+  width: 46px;
+  height: 46px;
+  border: 1px solid gold;
+  border-radius: 100%;
+  box-sizing: border-box;
+  &:hover{
+    opacity: 0.5;
+  }
+}
+#section02  span::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  content: '';
+  width: 16px;
+  height: 16px;
+  margin: -12px 0 0 -8px;
+  border-left: 1px solid gold;
+  border-bottom: 1px solid gold;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
+}
+  
+  .my-object p:nth-child(2) {
+    width: 10em;
+    opacity: 0;
+    -webkit-animation: type2 4s steps(18, end);
+    animation: type2 4s steps(18, end);
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  
+  .my-object p:nth-child(3) {
+    width: 5em;
+    opacity: 0;
+    -webkit-animation: type3 2s steps(8, end);
+    animation: type3 2s steps(8, end);
+    -webkit-animation-delay: 9s;
+    animation-delay: 9s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  .my-object p:nth-child(4) {
+    width: 20em;
+    opacity: 0;
+    -webkit-animation: type4 6s steps(32, end);
+    animation: type4 6s steps(32, end);
+    -webkit-animation-delay: 11s;
+    animation-delay: 11s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  .my-object p:nth-child(5) {
+    width: 1em;
+    opacity: 0;
+    -webkit-animation: type5 1s steps(1, end);
+    animation: type5 1s steps(1, end);
+    -webkit-animation-delay: 17s;
+    animation-delay: 17s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+
+  
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: 0.15em solid orange;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: 0.15em solid orange;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: 0.15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: 0.15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: 0.15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: 0.15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+@keyframes type4 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: 0.15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type4 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: 0.15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+@keyframes type5 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type5 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
+}
+img {
+  height: 400px;
+  margin-top: 180px;
+}
+
+@media (max-width:1020px){
+img{
+  height: 300px;
+}
+}
+@media (max-width:880px){
+  .my-object {
+    margin-top: 40px;
+   
+  }
+img{
+  height: 200px;
+  
+}
+.home-about{
+  flex-direction:column-reverse;
+  
+  padding:10px;
+  
+}
+}
+@media (max-width:620px){
+  .my-object p {
+  font-size: 23px;
+  
+  }
+  .my-object{
+    padding: 10px;
+    width: 100%;
+  }
+}
+@media (max-width:530px){
+  .home-about{
+    padding: 10px;
+    
+  }
+  .my-object p {
+  font-size: 18px;
+  
+  }
+  .my-object .bracets{
+    font-size:23px
+  }
+   
+    
+  }
+@media (max-width:440px){
+ 
+  .my-object p {
+  font-size: 14px;
+  margin-left: 3px
+  
+  }
+  .my-object .bracets{
+    font-size:21px
+  }
+   
+    
+  }
+

@@ -1,0 +1,18 @@
+// Setup
+@import "setup/variables.scss";
+@import "./setup/typography";
+
+// Basics
+@import "basics/helpers.scss";
+@import "basics/base.scss";
+@import "basics/buttons";
+
+// Components
+@import "cmps/_navbar";
+@import "cmps/_about";
+@import "cmps/_tech";
+@import "cmps/_projects";
+
+
+//views
+@import  "views/_home.scss" ;
