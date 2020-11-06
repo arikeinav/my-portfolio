@@ -2,12 +2,13 @@
   margin-top: 100px;
 }
 .general {
-  width: 600px;
+ max-width: 600px;
 
-  h2 {
+  p {
     font-family: "Courier";
     font-size: 20px;
     color: white;
+    max-width: 90%;
   }
 }
 
@@ -34,7 +35,17 @@ align-items: center;
 }
 
 @media (max-width:800px){
-
+  .general {
+    
+   
+     p {
+       font-family: "Courier";
+       font-size: 20px;
+       color: white;
+       width: 400px;
+       margin: auto;
+     }
+   }
 
   .about{
     flex-direction: column;
