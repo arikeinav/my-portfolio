@@ -1,5 +1,6 @@
 .about{
-  margin-top: 100px;
+  margin-top: 50px;
+  padding: 50px;
 }
 .general {
  max-width: 600px;
@@ -19,21 +20,58 @@
   width: 250px;
   
 }
+.about-avatar{
+  width: 150px;
+  height: 150px;
+  margin-top: 0;
+  img{
+    margin-top: 0;
+  }
+ 
+}
 .input{
   background-color: #fff;
   border-radius: 5px;
+  width: 250px;
   
 }
+.contact{
+  background-color:#3c3737
+}
+.contact-btn{
+  width: 200px;
+    color: #818181;
+    background-color: orange;
+    height: 38px;
+    border-radius: 5px;
+    outline-style: none;
+    border: none;
+    cursor: pointer;
+    &:hover{
+      background-color: gold;
+    }
+}
+
 .contact-form{
 display: flex;
 flex-direction: column;
 height: 400px;
-background-color: rgb(114, 114, 114);
+background-color:#3c3737;
 width: 300px;
 justify-content: space-around;
 align-items: center;
+h1{
+  color: white;
+  margin-bottom: 10px;
+}
 
 }
+.error-msg h5{
+  margin: 0;
+  color: red;
+  border: 2px solid red;
+}
+
 
 @media (max-width:800px){
   .general {
@@ -50,5 +88,19 @@ align-items: center;
 
   .about{
     flex-direction: column;
+  }
+  
+}
+@media (max-width:560px){
+  .contact{
+    flex-direction: column-reverse;
+      align-items: center;
+      height: 100vh;
+  }
+  .social{
+    height: 210px;
+  }
+  .fotter{
+    font-size: 14px;
   }
 }
