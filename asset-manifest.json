@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.e4f9d212.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.c0bdd5ed.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.c0bdd5ed.chunk.js.map",
+    "main.js": "/my-portfolio/static/js/main.022838df.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.022838df.chunk.js.map",
     "runtime-main.js": "/my-portfolio/static/js/runtime-main.3134900d.js",
     "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.3134900d.js.map",
-    "static/js/2.e077a971.chunk.js": "/my-portfolio/static/js/2.e077a971.chunk.js",
-    "static/js/2.e077a971.chunk.js.map": "/my-portfolio/static/js/2.e077a971.chunk.js.map",
+    "static/js/2.bdf9b711.chunk.js": "/my-portfolio/static/js/2.bdf9b711.chunk.js",
+    "static/js/2.bdf9b711.chunk.js.map": "/my-portfolio/static/js/2.bdf9b711.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
-    "precache-manifest.14559067b8b44e742747ec1f751b830f.js": "/my-portfolio/precache-manifest.14559067b8b44e742747ec1f751b830f.js",
+    "precache-manifest.c9b17cc639286de5fc89dbeafb7b9865.js": "/my-portfolio/precache-manifest.c9b17cc639286de5fc89dbeafb7b9865.js",
     "service-worker.js": "/my-portfolio/service-worker.js",
     "static/css/main.e4f9d212.chunk.css.map": "/my-portfolio/static/css/main.e4f9d212.chunk.css.map",
-    "static/js/2.e077a971.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.e077a971.chunk.js.LICENSE.txt",
+    "static/js/2.bdf9b711.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.bdf9b711.chunk.js.LICENSE.txt",
     "static/media/global.scss": "/my-portfolio/static/media/Vidaloka-Regular.56a9676b.ttf",
     "static/media/css.png": "/my-portfolio/static/media/css.36c6ea0f.png",
     "static/media/js.png": "/my-portfolio/static/media/js.db7933e6.png",
     "static/media/me.png": "/my-portfolio/static/media/me.a007a312.png",
+    "static/media/me2.jpg": "/my-portfolio/static/media/me2.7ccf57cc.jpg",
     "static/media/meme.PNG": "/my-portfolio/static/media/meme.b9fa193e.PNG",
     "static/media/mines.PNG": "/my-portfolio/static/media/mines.23a01b46.PNG",
     "static/media/mongo.png": "/my-portfolio/static/media/mongo.1cc6bb25.png",
@@ -30,8 +31,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.3134900d.js",
-    "static/js/2.e077a971.chunk.js",
+    "static/js/2.bdf9b711.chunk.js",
     "static/css/main.e4f9d212.chunk.css",
-    "static/js/main.c0bdd5ed.chunk.js"
+    "static/js/main.022838df.chunk.js"
   ]
 }
