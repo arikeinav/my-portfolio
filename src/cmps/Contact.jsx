@@ -61,7 +61,7 @@ render (){
       <div className="flex align-center" style={{color:'white', fontSize:'18px'}}> <FiMail style={{marginRight:'8px'}}/>arikeinav@gmail.com</div>
           <a href="https://github.com/arikeinav" target="blank" className="flex align-center " style={{color:"white", fontSize:'25px',cursor:"pointer"}}><AiFillGithub style={{color:'white', fontSize:'25px',marginRight:'8px'}}/> <span>
           Github</span></a>
-          <a href="www.linkedin.com/in/arik-einav" target="blank" className="flex align-center " style={{color:'rgb(10, 102, 194)', fontSize:'25px',cursor:"pointer"}}><AiFillLinkedin style={{color:'rgb(10, 102, 194)', fontSize:'25px',marginRight:'8px'}}/> <span> Linkedin</span></a>
+          <a href="https://www.linkedin.com/in/arik-einav/" target="blank" className="flex align-center " style={{color:'rgb(10, 102, 194)', fontSize:'25px',cursor:"pointer"}}><AiFillLinkedin style={{color:'rgb(10, 102, 194)', fontSize:'25px',marginRight:'8px'}}/> <span> Linkedin</span></a>
           
           </div>
           

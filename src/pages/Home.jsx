@@ -21,7 +21,7 @@ export class Home extends Component {
           "Taskit is a collaboration tool that organizes your projects into boards. In one glance, Taskit tells you what's being worked on, who's working on what, and where something is in a process. The Taskit app is an end-to-end project based on React in the frontend and Node and MongoDB Atlas (serverless DB) at the backend.",
         date: "14/07/2020",
         imgUrlName: "taskit",
-        url: "https://arikeinav.github.io/Meme-Generator/",
+        url: "https://taskit-app2020.herokuapp.com/#/",
       },
       {
         name: "MEMEGEN",
@@ -356,7 +356,7 @@ export class Home extends Component {
         
           <div className="about-avatar">
               <Avatar
-                src={require("../styles/images/me.png")}
+                src={require("../styles/images/me2.jpg")}
                 style={{ height: "150px", width: "150px", marginTop: "0" }}
               />
             </div>
