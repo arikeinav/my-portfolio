@@ -33,9 +33,9 @@ export class Home extends Component {
       },
       { name: "Email-App", desc: "My first React App, a simple, elegant mail app, which allows you to manage your mail easily", date: "14/07/2020",imgUrlName:'email',url:"https://arikeinav.github.io/Email/" },
       {
-        name: "MINESWIPER",
+        name: "MINESWEEPER",
         desc:
-          "My take on the classic famous game. this is my very first project and its designed for desktop only. Try it, its fun!!!",
+          "My take on the classic famous game. this is my very first project and it's designed for desktop only. Try it, its fun!!!",
         date: "14/07/2020",
         imgUrlName: "mines",
         url: "https://arikeinav.github.io/Minesweeper/",
@@ -85,7 +85,7 @@ export class Home extends Component {
               fontFamily: "Courier",
             }}
           >
-            Welcome to my portfolyo
+            Welcome to my portfolio
           </h1>
           <div className="home-about flex">
             <div className="my-object">
