@@ -77,7 +77,6 @@ render (){
         id="outlined-secondary"
         label="Your name"
         variant="outlined"
-        color="blue"
         name="name"
         className="input"
         value={this.state.name}
@@ -88,7 +87,6 @@ render (){
         id="outlined-secondary"
         label="Email"
         variant="outlined"
-        color="blue"
         name="email"
         className="input"
         value={this.state.email}
@@ -103,7 +101,6 @@ render (){
         variant="outlined"
         name="msg"
         className="text"
-        color="blue"
         value={this.state.msg}
         onChange={this.handleChange}
       />

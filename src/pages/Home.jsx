@@ -31,6 +31,7 @@ export class Home extends Component {
         imgUrlName: "meme",
         url: "https://arikeinav.github.io/Meme-Generator/",
       },
+      { name: "Email-App", desc: "My first React App, a simple, elegant mail app, which allows you to manage your mail easily", date: "14/07/2020",imgUrlName:'email',url:"https://arikeinav.github.io/Email/" },
       {
         name: "MINESWIPER",
         desc:
@@ -39,7 +40,6 @@ export class Home extends Component {
         imgUrlName: "mines",
         url: "https://arikeinav.github.io/Minesweeper/",
       },
-      // { name: "Email-App", desc: "nice game", date: "14/07/2020",imgUrl:'../styles/images/mail.PNG' },
     ],
   };
 
