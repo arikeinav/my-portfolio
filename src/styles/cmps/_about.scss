@@ -55,7 +55,7 @@
 .contact-form{
 display: flex;
 flex-direction: column;
-height: 400px;
+min-height: 400px;
 background-color:#3c3737;
 width: 300px;
 justify-content: space-around;
@@ -98,7 +98,7 @@ h1{
       height: 100vh;
   }
   .social{
-    height: 210px;
+    min-height: 210px;
   }
   .fotter{
     font-size: 14px;

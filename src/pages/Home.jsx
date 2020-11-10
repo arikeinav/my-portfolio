@@ -18,7 +18,7 @@ export class Home extends Component {
       {
         name: "TASKIT",
         desc:
-          "Taskit is a collaboration tool that organizes your projects into boards. In one glance, Taskit tells you what's being worked on, who's working on what, and where something is in a process. The Taskit app is an end-to-end project based on React in the frontend and Node and MongoDB Atlas (serverless DB) at the backend.",
+          "Taskit is a collaboration tool that organizes your projects into boards. At one glance, Taskit tells you what's being worked on, who's working on what, and where something is in a process. The Taskit app is an end-to-end project based on React at the frontend and Node and MongoDB Atlas (serverless DB) at the backend.",
         date: "14/07/2020",
         imgUrlName: "taskit",
         url: "https://taskit-app2020.herokuapp.com/#/",
@@ -35,7 +35,7 @@ export class Home extends Component {
       {
         name: "MINESWEEPER",
         desc:
-          "My take on the classic famous game. this is my very first project and it's designed for desktop only. Try it, its fun!!!",
+          "My take on the classic famous game. This was my very first project and it's designed for desktop only. Try it, its fun!!!",
         date: "14/07/2020",
         imgUrlName: "mines",
         url: "https://arikeinav.github.io/Minesweeper/",
@@ -101,7 +101,7 @@ export class Home extends Component {
                 <span style={{ color: "#09d5f0" }}>name: </span>Arik Einav,
               </p>
               <p>
-                <span style={{ color: "#09d5f0" }}>professione: </span>Full
+                <span style={{ color: "#09d5f0" }}>profession: </span>Full
                 Stack Developer
               </p>
               <p className="bracets">{p5}</p>
