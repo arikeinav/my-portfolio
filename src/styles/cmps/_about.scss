@@ -36,7 +36,7 @@
   
 }
 .contact{
-  background-color:#3c3737
+  background-color:#8b8383
 }
 .contact-btn{
   width: 200px;
@@ -56,7 +56,7 @@
 display: flex;
 flex-direction: column;
 min-height: 400px;
-background-color:#3c3737;
+background-color:#8b8383;
 width: 300px;
 justify-content: space-around;
 align-items: center;
@@ -95,7 +95,7 @@ h1{
   .contact{
     flex-direction: column-reverse;
       align-items: center;
-      height: 100vh;
+      min-height: 100vh;
   }
   .social{
     min-height: 210px;
