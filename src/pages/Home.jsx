@@ -35,7 +35,7 @@ export class Home extends Component {
       {
         name: "MINESWEEPER",
         desc:
-          "My take on the classic famous game. This was my very first project and it's designed for desktop only. Try it, its fun!!!",
+          "My take on the classic famous game. This was my very first project. Try it, its fun!!!",
         date: "14/07/2020",
         imgUrlName: "mines",
         url: "https://arikeinav.github.io/Minesweeper/",
