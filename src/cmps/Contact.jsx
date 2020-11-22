@@ -95,7 +95,7 @@ render (){
 
       <TextField
         id="outlined-multiline-static"
-        label="Messege"
+        label="Message"
         multiline
         rows={4}
         variant="outlined"

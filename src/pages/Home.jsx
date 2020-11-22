@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { List } from "../cmps/List";
 import { About } from "../pages/About";
-// import { Navbar } from './cmps/Navbar'
+import { Stacks } from "../cmps/Stacks";
 import Sky from "react-sky";
 import react from "../styles/images/react.png";
 import html from "../styles/images/html.png";
@@ -31,7 +31,14 @@ export class Home extends Component {
         imgUrlName: "meme",
         url: "https://arikeinav.github.io/Meme-Generator/",
       },
-      { name: "Email-App", desc: "My first React App, a simple, elegant mail app, which allows you to manage your mail easily", date: "14/07/2020",imgUrlName:'email',url:"https://arikeinav.github.io/Email/" },
+      {
+        name: "Email-App",
+        desc:
+          "My first React App, a simple, elegant mail app, which allows you to manage your mail easily",
+        date: "14/07/2020",
+        imgUrlName: "email",
+        url: "https://arikeinav.github.io/Email/",
+      },
       {
         name: "MINESWEEPER",
         desc:
@@ -46,7 +53,6 @@ export class Home extends Component {
   render() {
     const p1 = "{";
     const p5 = "}";
-
     return (
       <div
         className="main-app"
@@ -64,14 +70,13 @@ export class Home extends Component {
           size={"13px"}
           background={"#2c2929"}
         />
-
         <div className="navbar">
           <div className="nav-tag flex align-center space-between">
             <a href="#home">HOME</a>
             <a href="#Projects">PROJECTS</a>
             <a href="#tech">STACKS</a>
             <a href="#about">ABOUT</a>
-            <a href="https://docdro.id/dPkKK9b" target="blank">
+            <a className="resume" href="https://docdro.id/dPkKK9b" target="blank" >
               RESUME
             </a>
           </div>
@@ -90,7 +95,8 @@ export class Home extends Component {
           <div className="home-about flex">
             <div className="my-object">
               <p>
-                <span style={{ color: "#5656ba", fontWeight: "bolder" }}>const{" "} 
+                <span style={{ color: "#5656ba", fontWeight: "bolder" }}>
+                  const{" "}
                 </span>
                 fullStackDeveloper =
                 <span className="bracets" style={{ top: "3px" }}>
@@ -101,30 +107,25 @@ export class Home extends Component {
                 <span style={{ color: "#09d5f0" }}>name: </span>Arik Einav,
               </p>
               <p>
-                <span style={{ color: "#09d5f0" }}>profession: </span>Full
-                Stack Developer
+                <span style={{ color: "#09d5f0" }}>profession: </span>Full Stack
+                Developer
               </p>
               <p className="bracets">{p5}</p>
             </div>
-
             <div className="avatar">
               <Avatar
                 src={require("../styles/images/me.png")}
                 style={{ height: "100%", width: "100%" }}
               />
             </div>
-            
           </div>
-          
         </div>
         <div className="projects" id="Projects">
           <div style={{ height: "80px" }}></div>
           <List projects={this.state.projects} />
         </div>
-
         <div className="tech" id="tech">
           <div style={{ height: "80px" }}></div>
-
           <h1>STACKS</h1>
           <div
             style={{
@@ -134,216 +135,10 @@ export class Home extends Component {
               margin: "auto",
             }}
           ></div>
-          <div className="tech-list grid">
-            <div className="flip-card">
-              <div
-                className="flip-card-inner"
-                style={{ boxShadow: "0 4px 8px 0 rgba(3, 194, 241, 0.13)" }}
-              >
-                <div className="flip-card-front">
-                  <img
-                    className="tech-img"
-                    src={require("../styles/images/react.png")}
-                    alt="Avatar"
-                  />
-                </div>
-                <div className="flip-card-back">
-                  <h1>React.js</h1>
-                </div>
-              </div>
-            </div>
-            <div className="flip-card">
-              <div
-                className="flip-card-inner"
-                style={{ boxShadow: "0 4px 8px 0 rgba(233, 62, 48, 0.13)" }}
-              >
-                <div className="flip-card-front">
-                  <img
-                    className="tech-img"
-                    src={require("../styles/images/html.png")}
-                    alt=""
-                  />
-                </div>
-                <div className="flip-card-back">
-                  <h1>Html-5</h1>
-                </div>
-              </div>
-            </div>
-            <div className="flip-card">
-              <div
-                className="flip-card-inner"
-                style={{ boxShadow: "0 4px 8px 0 rgba(190, 96, 139, 0.13)" }}
-              >
-                <div className="flip-card-front">
-                  <img
-                    className="tech-img"
-                    src={require("../styles/images/sass.png")}
-                    alt="Avatar"
-                  />
-                </div>
-                <div className="flip-card-back">
-                  <h1>Sass</h1>
-                </div>
-              </div>
-            </div>
-            <div className="flip-card">
-              <div
-                className="flip-card-inner"
-                style={{ boxShadow: "0 4px 8px 0 rgba(63, 185, 132,0.13)" }}
-              >
-                <div className="flip-card-front">
-                  <img
-                    className="tech-img"
-                    src={require("../styles/images/vue.png")}
-                    alt="Avatar"
-                  />
-                </div>
-                <div className="flip-card-back">
-                  <h1>Vue</h1>
-                </div>
-              </div>
-            </div>
-            <div className="flip-card">
-              <div
-                className="flip-card-inner"
-                style={{ boxShadow: "0 4px 8px 0 rgba(247, 224, 24,0.13)" }}
-              >
-                <div className="flip-card-front">
-                  <img
-                    className="tech-img"
-                    src={require("../styles/images/js.png")}
-                    alt="Avatar"
-                  />
-                </div>
-                <div className="flip-card-back">
-                  <h1>Js</h1>
-                </div>
-              </div>
-            </div>
-            <div className="flip-card">
-              <div
-                className="flip-card-inner"
-                style={{ boxShadow: "0 4px 8px 0 rgba(128, 189, 2,0.13)" }}
-              >
-                <div className="flip-card-front">
-                  <img
-                    className="tech-img"
-                    src={require("../styles/images/node.png")}
-                    alt="Avatar"
-                  />
-                </div>
-                <div className="flip-card-back">
-                  <h1>Node.js</h1>
-                </div>
-              </div>
-            </div>
-            <div className="flip-card">
-              <div
-                className="flip-card-inner"
-                style={{ boxShadow: "0 4px 8px 0 rgba(85, 60, 123,0.13)" }}
-              >
-                <div className="flip-card-front">
-                  <img
-                    className="tech-img"
-                    src={require("../styles/images/bootstrap.png")}
-                    alt="Avatar"
-                  />
-                </div>
-                <div className="flip-card-back">
-                  <h1>Bootstrap</h1>
-                </div>
-              </div>
-            </div>
-            <div className="flip-card">
-              <div
-                className="flip-card-inner"
-                style={{ boxShadow: "0 4px 8px 0 rgba(69, 165, 57,0.13)" }}
-              >
-                <div className="flip-card-front">
-                  <img
-                    className="tech-img"
-                    src={require("../styles/images/mongo.png")}
-                    alt="Avatar"
-                  />
-                </div>
-                <div className="flip-card-back">
-                  <h1>Mongo.DB</h1>
-                </div>
-              </div>
-            </div>
-            <div className="flip-card">
-              <div
-                className="flip-card-inner"
-                style={{ boxShadow: "0 4px 8px 0 rgba(115, 72, 177,0.13)" }}
-              >
-                <div className="flip-card-front">
-                  <img
-                    className="tech-img"
-                    src={require("../styles/images/redux.png")}
-                    alt="Avatar"
-                  />
-                </div>
-                <div className="flip-card-back">
-                  <h1>Redux</h1>
-                </div>
-              </div>
-            </div>
-            <div className="flip-card">
-              <div
-                className="flip-card-inner"
-                style={{ boxShadow: "0 4px 8px 0 rgba(27, 135, 199,0.13)" }}
-              >
-                <div className="flip-card-front">
-                  <img
-                    className="tech-img"
-                    src={require("../styles/images/css.png")}
-                    alt="Avatar"
-                  />
-                </div>
-                <div className="flip-card-back">
-                  <h1>Css-3</h1>
-                </div>
-              </div>
-            </div>
-            <div className="flip-card">
-              <div
-                className="flip-card-inner"
-                style={{ boxShadow: "0 4px 8px 0 rgba(0, 0, 0,0.13)" }}
-              >
-                <div className="flip-card-front">
-                  <img
-                    className="tech-img"
-                    src={require("../styles/images/socket.png")}
-                    alt="Avatar"
-                  />
-                </div>
-                <div className="flip-card-back">
-                  <h1>Socket.io</h1>
-                </div>
-              </div>
-            </div>
-            <div className="flip-card">
-              <div
-                className="flip-card-inner"
-                style={{ boxShadow: "0 4px 8px 0 rgba(213, 0, 0,0.13)" }}
-              >
-                <div className="flip-card-front">
-                  <img
-                    className="tech-img"
-                    src={require("../styles/images/npm.png")}
-                    alt="Avatar"
-                  />
-                </div>
-                <div className="flip-card-back">
-                  <h1>NPM</h1>
-                </div>
-              </div>
-            </div>
-          </div>
+          <Stacks />
         </div>
         <div style={{ height: "80px" }}></div>
         <h1 style={{ color: "white" }}>ABOUT</h1>
-
         <div
           style={{
             backgroundColor: "orange",
@@ -352,25 +147,25 @@ export class Home extends Component {
             margin: "auto",
           }}
         ></div>
-        <div id="about" className="about flex space-between align-center">
-        
-          <div className="about-avatar">
-              <Avatar
-                src={require("../styles/images/me2.jpg")}
-                style={{ height: "150px", width: "150px", marginTop: "0" }}
-              />
-            </div>
-          <About />
-        </div>
+        <About />
         <Contact />
-        <footer className="flex justify-center" style={{ height: "55px", color: "white", background: "black" }}>
-        
-          <AiOutlineCopyright style={{marginRight:'5px',alignSelf:'center'}}/>
+        <footer
+          className="flex justify-center"
+          style={{ height: "55px", color: "white", background: "black" }}
+        >
+          <AiOutlineCopyright
+            style={{ marginRight: "5px", alignSelf: "center" }}
+          />
           <p
             className="fotter"
-            style={{ padding: "0", fontFamily: "Courier", margin: "0",alignSelf:'center' }}
-            
-            >All rights reserved Arik Einav
+            style={{
+              padding: "0",
+              fontFamily: "Courier",
+              margin: "0",
+              alignSelf: "center",
+            }}
+          >
+            All rights reserved Arik Einav
           </p>
         </footer>
         <a
