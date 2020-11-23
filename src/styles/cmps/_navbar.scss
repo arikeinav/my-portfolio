@@ -41,6 +41,10 @@
       a {
         font-size: 16px;
       }
+      .resume{
+        color: gold;
+        font-size: 20px;
+      }
     }
   }
   @media (max-width:420px) {
@@ -49,6 +53,10 @@
       min-width: 280px;
       a {
         font-size: 12px;
+      }
+      .resume{
+        color: gold;
+        font-size: 20px;
       }
     }
   }
