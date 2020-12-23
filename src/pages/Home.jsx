@@ -76,7 +76,7 @@ export class Home extends Component {
             <a href="#Projects">PROJECTS</a>
             <a href="#tech">STACKS</a>
             <a href="#about">ABOUT</a>
-            <a className="resume" href="https://docdro.id/dPkKK9b" target="blank" >
+            <a className="resume" href="https://docdro.id/YMRxOwS" target="blank" >
               RESUME
             </a>
           </div>
